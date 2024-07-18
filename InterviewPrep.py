@@ -43,6 +43,7 @@ df2 = pd.DataFrame(data2)
 # Day of the Week
 df2['day_of_week'] = df2['purchase_date'].apply() # Some Calendar Function
 
+# We need to change this
 # Is Weekend
 if df2['day_of_week'] == 'Saturday' or 'Sunday' or 'Friday':
     df2['Is_Weekend'] = True
